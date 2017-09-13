@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>PGF Resume</title>
+
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
+      
+      <link rel="stylesheet" href="style.css">
+   </head>
+	
+   <body>
+    <div class="container">
+        <div class="row">
+            <section class="left-section col-md-4">
+                    <div class="profile-container">
+                        <img class="profile" src="images/pgf.png" alt="" />
+                        <p class="name">Pedro Fernandes</p>
+                        <p class="tagline">Software Engineer</p>
+                        <p class="tagline location"><i class="fa fa-map-marker"></i><a href="http://maps.google.com/?q=M4K2S6" target="_blank">Toronto, ON</a></p>
+                    </div>
+
+                    <div class="contact-container">
+                            <p class="email"><i class="fa fa-envelope"></i>pedro92.gf@gmail.com</p>
+                            <p class="phone"><i class="fa fa-phone"></i>416 505 2097</p>
+                            <p class="linkedin"><i class="fa fa-linkedin"></i><a href="#" target="_blank">linkedin.com/pedrofg</a></p>
+                            <p class="github"><i class="fa fa-github"></i><a href="https://github.com/pedrofg" target="_blank">github.com/pedrofg</a></p>
+                    </div>
+
+                    <div class="education-container">
+                        <p class="title">EDUCATION</p>
+
+                        <p class="education-name">MSc in Application Development</p>
+                        <p class="education-school">Lambton College</p>
+                        <p class="education-year">2017 - 2019</p>
+                        
+                        <p class="education-name">BSc in System Development</p>
+                        <p class="education-school">Unibratec College</p>
+                        <p class="education-year">2009 - 2012</p>
+                    </div>
+
+                    <div class="language-container">
+                        <p class="title">Languages</p>
+
+                        <p class="language-name">Portuguese <span class="language-level">(Native)</span></p>
+                        <p class="language-name">English <span class="language-level">(Fluent)</span></p>
+                        
+                    </div>
+
+            </section>
+            <section class="right-section col-md-8">
+
+            </section>
+        </div>
+        <div class="row">
+            <section class="bottom-section col-md-12">
+                <div class="owl-carousel owl-theme">
+                    <img class="profile" src="images/resume/resume1.jpg" alt="" />
+                    <img class="profile" src="images/resume/resume2.jpg" alt="" />
+                    <img class="profile" src="images/resume/resume3.png" alt="" />
+                    <img class="profile" src="images/resume/resume4.png" alt="" />
+                </div>
+            </section>
+        </div>
+
+    </div>
+      
+   </body>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+   
+   <script>
+       $(function() {
+            $('.owl-carousel').owlCarousel({
+               nav: false,
+               singleItem: true,
+               items: 4,
+               margin: 0
+            });
+        });
+   </script>
+</html>
