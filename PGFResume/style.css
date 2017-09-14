@@ -6,18 +6,19 @@ body {
 }
 
 .container {
-    -moz-box-shadow: 0 0 5px 2px #999;
-    -webkit-box-shadow: 0 0 5px 2px #999;
+  box-shadow: 0 0 5px 2px #999;
+  -moz-box-shadow: 0 0 5px 2px #999;
+  -webkit-box-shadow: 0 0 5px 2px #999;
 }
 
-.fa {
+.left-section .fa {
   margin-right: 5px;
   font-size: 18px;
   color: #fff;
 }  
 
 .left-section {
-  background: #42A8C0;
+  background: #607D8B;
   left: 0;
   min-height: 1000px;
   color: #fff;
@@ -26,7 +27,7 @@ body {
 
 .left-section .profile-container {
   padding: 30px;
-  background: rgba(0, 0, 0, 0.2);
+  background: #455A64;
   text-align: center;
   color: #fff;
 }
@@ -42,7 +43,7 @@ body {
   margin-bottom: 5px;
 }
 .left-section .tagline {
-  color: rgba(255, 255, 255, 0.6);
+  color: #CFD8DC;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
@@ -87,14 +88,13 @@ body {
 }
 
 .left-section .education-container .education-school {
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 500;
+  color: #CFD8DC;
   margin-bottom: 0px;
   margin-top: 0;
 }
 
 .left-section .education-container .education-year {
-  color: rgba(255, 255, 255, 0.6);
+  color: #CFD8DC;
   font-weight: 500;
 }
 
@@ -103,30 +103,168 @@ body {
 }
 
 .left-section .language-container .language-level {
-    color: rgba(255, 255, 255, 0.6);
+    color: #CFD8DC;
 }
 
-.right-section { 
-    background-color: #EEE;
-    min-height: 1000px;
+.right-section {
+  padding: 50px;
+  background-color: #FFF;
+  min-height: 1000px;
 }
+
+.right-section .right-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #212121;
+}
+
+.right-section .about-container .about-text {
+  font-size: 14px;
+  color: #757575;
+  margin-top: 20px;
+}
+
+.right-section .fa {
+  margin-right: 10px;
+  font-size: 30px;
+  color: #455A64;
+  vertical-align: bottom;
+}
+
+.right-section .work-container {
+  margin-top: 70px;
+}
+
+.right-section .work-ul {
+  margin-top: 20px;
+  padding-left: 15px;
+}
+
+.right-section .work-li {
+  margin-bottom: -2px;
+  padding-bottom: 20px;
+  list-style: none;
+  padding-left: 20px;
+  margin-left: 2px;
+  border-left: 1px solid #009688;
+}
+
+.right-section .work-li:last-child {
+  padding-bottom: 0;
+}
+
+.right-section .work-circle {
+  /*background-color: rgba(204, 0, 102, 0); hollow - transparent*/
+  background-color: #FFF;
+  border: 1px solid #009688;
+  height: 12px;
+  width: 12px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  position: absolute;
+  left: 61px;
+}
+
+
+.right-section .work-li p {
+  margin-bottom: 2px;
+}
+
+.right-section .work-date {
+  font-size: 13px;
+  color: #757575;
+}
+
+.right-section .work-position {
+  font-size: 14px;
+  color: #212121;
+}
+
+.right-section .work-company {
+  font-size: 14px;
+  font-weight: 600;
+  color: #212121;
+}
+
+.right-section .skills-container {
+  margin-top: 70px;
+}
+
+.right-section .skills-container .skill {
+  margin-top: 20px;
+}
+
+.right-section .skills-container .skill-progress {
+  display: inline-block;
+  border: 1px solid #BDBDBD;
+  border-radius: 10px;
+  width: 150px;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.years-5 {
+  background: linear-gradient(to left, #FFF 20%, #009688 20%);
+}
+
+.years-4 {
+  background: linear-gradient(to left, #FFF 30%, #009688 30%);
+}
+
+.years-3 {
+  background: linear-gradient(to left, #FFF 40%, #009688 40%);
+}
+
+.years-2 {
+  background: linear-gradient(to left, #FFF 50%, #009688 50%);
+}
+
+.years-1 {
+  background: linear-gradient(to left, #FFF 60%, #009688 60%);
+}
+
+.right-section .skill-name {
+  width: 85px;
+  font-size: 16px;
+  color: #212121;
+  margin: 0px;
+  display: inline-block;
+}
+
+.right-section .skill-year {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #757575;
+}
+
 
 .bottom-section { 
     border-top: 1px solid #999;
     background-color: #EEE;
-    min-height: 400px;
+    min-height: 300px;
     padding: 0;
 }
 
 .owl-item img {
-    height: 400px;
-    margin-right: 20px;
+    height: 300px;
+    width: 300px;
 }
+
+
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-    .owl-item {
+    .owl-item img {
         width: 100% !important;
+    }
+
+    .right-section .skill-year {
+      display: block;
+      margin-left: 0;
+    }
+
+    .right-section .skills-container .skill-progress {
+      width: 100%;
     }
 }
 
