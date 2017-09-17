@@ -1,6 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
-  padding: 30px;
+  padding-top: 30px;
+  padding-bottom: 100px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -186,6 +187,13 @@ body {
   color: #212121;
 }
 
+.right-section .work-project {
+  font-size: 14px;
+  color: #009688;
+  display: inline-block;
+  padding-right: 10px;
+}
+
 .right-section .skills-container {
   margin-top: 70px;
 }
@@ -240,9 +248,28 @@ body {
 
 .bottom-section { 
     border-top: 1px solid #999;
-    background-color: #EEE;
+    background-color: #FFF;
     min-height: 300px;
     padding: 0;
+    padding-top: 20px;
+}
+
+.bottom-section .fa { 
+    margin-right: 10px;
+    font-size: 30px;
+    color: #455A64;
+    vertical-align: bottom;
+}
+
+.bottom-section .bottom-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #212121;
+  text-align: center;
+}
+
+.owl-carousel {
+  padding-top: 10px;
 }
 
 .owl-item img {
@@ -250,13 +277,58 @@ body {
     width: 300px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  height: 100px;
+  background-color: #455A64;
+  opacity: 0.8;
+  z-index: 1;
+  margin-right: -15px;
+  margin-left: -15px;
+  width: inherit;
+  padding: 10px;
+  color: #FFF;
+
+  box-shadow: 0 0 5px 2px #999;
+  -moz-box-shadow: 0 0 5px 2px #999;
+  -webkit-box-shadow: 0 0 5px 2px #999;
+}
+
+.footer-profile {
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+  margin-left: 20px;
+  float: left;
+}
+
+footer a {
+  color: #FFF;
+}
+
+footer a:hover {
+  color: #FFF;
+}
+
+footer .fa {
+  margin-right: 10px;
+}
+
+footer p {
+  width: 100%;
+}
+
+footer .div-contact {
+  float: right;
+  margin-right: 20px;
+  margin-top: 15px;
+}
+
 
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-    .owl-item img {
-        width: 100% !important;
-    }
 
     .right-section .skill-year {
       display: block;
@@ -265,6 +337,10 @@ body {
 
     .right-section .skills-container .skill-progress {
       width: 100%;
+    }
+
+    footer .div-contact:nth-of-type(2n) {
+      visibility: hidden;
     }
 }
 
