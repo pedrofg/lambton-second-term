@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html>
 
+    <!-- Head used to set meta tags, title and import some css's -->
    <head>
        <meta charset="utf-8">
        <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>PGF Resume</title>
 
+      <!-- Bootstrap used to make the whole page responsive and easier to implement using the grid system -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <!-- Font Awsome to use some responsive font icons -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- Owl carousel used in the portoflio paginated list -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.theme.default.min.css">
       
+      <!-- Style.css used to stylize the page -->
       <link rel="stylesheet" href="style.css">
    </head>
 	
    <body>
+    <!-- container is a bootstrap class which avoid the side margins and center the content -->
     <div class="container">
+        <!-- row is a bootstrap class used to define a row in the screen which can contains columns like a table -->
         <div class="row">
+            <!-- section which define the left side of the page used for profile, contact and so on -->
+            <!-- using bootstrap grid system col-md-4 to use 4 columns of the 12 -->
             <section class="left-section col-md-4">
+
                     <div class="profile-container">
                         <img class="profile" src="images/pgf.png" alt="" />
                         <p class="name">Pedro Fernandes</p>
@@ -53,6 +63,7 @@
                     </div>
 
             </section>
+            <!-- Section that represents the main data in the resume. Using 8 columns of the 12 of the bootstrap grid system -->
             <section class="right-section col-md-8">
 
                 <div class="about-container">
@@ -131,9 +142,12 @@
 
             </section>
         </div>
+        <!-- Another row to represent the bottom part of the resume since the first row is full by the 2 sections above -->
         <div class="row">
+            <!-- Section that represents the portfolio area of the resume using all the columns of the bootstrap grid system -->
             <section class="bottom-section col-md-12">
                 <p class="bottom-title"><i class="fa fa-paint-brush" aria-hidden="true"></i>Portfolio</p>
+                <!-- Using owl carousel classes to make the paginated list for us -->
                 <div class="owl-carousel owl-theme">
                     <img class="profile" src="images/resume/resume1.jpg" alt="" />
                     <img class="profile" src="images/resume/resume2.jpg" alt="" />
@@ -149,6 +163,7 @@
             </section>
         </div>
 
+        <!-- Using fixed footer to always show to the user needed contact info -->
         <footer>
             <img class="footer-profile" src="images/pgf.png" alt="" />
             <div class="div-contact">
@@ -166,6 +181,7 @@
       
    </body>
 
+   <!-- Import jquery and caroulse javascript from the cdn and local script from the current folder -->
    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
    <script src="script.js"></script>
