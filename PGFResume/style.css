@@ -16,7 +16,7 @@ body {
   margin-right: 5px;
   font-size: 18px;
   color: #fff;
-}  
+}
 
 .left-section {
   background: #607D8B;
@@ -43,17 +43,17 @@ body {
   margin-top: 0;
   margin-bottom: 5px;
 }
+
 .left-section .tagline {
   color: #CFD8DC;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
-}  
+}
 
 .left-section .location {
   color: #fff;
-} 
-
+}
 
 .left-section .profile {
   margin-bottom: 15px;
@@ -100,11 +100,11 @@ body {
 }
 
 .left-section .language-container {
-    padding: 30px;
+  padding: 30px;
 }
 
 .left-section .language-container .language-level {
-    color: #CFD8DC;
+  color: #CFD8DC;
 }
 
 .right-section {
@@ -165,7 +165,6 @@ body {
   position: absolute;
   left: 61px;
 }
-
 
 .right-section .work-li p {
   margin-bottom: 2px;
@@ -245,20 +244,19 @@ body {
   color: #757575;
 }
 
-
-.bottom-section { 
-    border-top: 1px solid #999;
-    background-color: #FFF;
-    min-height: 300px;
-    padding: 0;
-    padding-top: 20px;
+.bottom-section {
+  border-top: 1px solid #999;
+  background-color: #FFF;
+  min-height: 300px;
+  padding: 0;
+  padding-top: 20px;
 }
 
-.bottom-section .fa { 
-    margin-right: 10px;
-    font-size: 30px;
-    color: #455A64;
-    vertical-align: bottom;
+.bottom-section .fa {
+  margin-right: 10px;
+  font-size: 30px;
+  color: #455A64;
+  vertical-align: bottom;
 }
 
 .bottom-section .bottom-title {
@@ -273,8 +271,8 @@ body {
 }
 
 .owl-item img {
-    height: 300px;
-    width: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 footer {
@@ -283,13 +281,12 @@ footer {
   height: 100px;
   background-color: #455A64;
   opacity: 0.8;
-  z-index: 1;
+  z-index: 99;
   margin-right: -15px;
   margin-left: -15px;
   width: inherit;
   padding: 10px;
   color: #FFF;
-
   box-shadow: 0 0 5px 2px #999;
   -moz-box-shadow: 0 0 5px 2px #999;
   -webkit-box-shadow: 0 0 5px 2px #999;
@@ -325,23 +322,22 @@ footer .div-contact {
   margin-top: 15px;
 }
 
-
-
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-
-    .right-section .skill-year {
-      display: block;
-      margin-left: 0;
-    }
-
-    .right-section .skills-container .skill-progress {
-      width: 100%;
-    }
-
-    footer .div-contact:nth-of-type(2n) {
-      visibility: hidden;
-    }
+.bottom-section .input-group {
+  margin-bottom: 20px;
 }
 
 
+/* Extra small devices (phones, less than 768px) */
+
+@media (max-width: 767px) {
+  .right-section .skill-year {
+    display: block;
+    margin-left: 0;
+  }
+  .right-section .skills-container .skill-progress {
+    width: 100%;
+  }
+  footer .div-contact:nth-of-type(2n) {
+    visibility: hidden;
+  }
+}
