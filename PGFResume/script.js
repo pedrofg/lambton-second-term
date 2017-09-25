@@ -1,4 +1,5 @@
 $(function() {
+
   // Connect owl carousel to the project. https://owlcarousel2.github.io/OwlCarousel2/
   $('.owl-carousel').owlCarousel({
     singleItem: true,
@@ -62,4 +63,12 @@ $(function() {
     var re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
     return re.test(email);
   }
+
+  $('#modal-video').on('shown.bs.modal', function() {
+    $("#sf-video")[0].play();
+  });
+
+  $('#modal-video').on('hidden.bs.modal', function() {
+    $("#sf-video")[0].pause();
+  });
 });

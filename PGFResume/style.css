@@ -300,6 +300,20 @@ footer {
   float: left;
 }
 
+.footer-audio {
+  margin-top: 22px;
+  margin-left: 16px;
+  width: 190px;
+  float: left;
+}
+
+.footer-btn-video {
+  margin-top: 22px;
+  margin-left: 16px;
+  font-size: 22px;
+  float: left;
+}
+
 footer a {
   color: #FFF;
 }
@@ -326,6 +340,10 @@ footer .div-contact {
   margin-bottom: 20px;
 }
 
+.modal-dialog {
+  width: 60%;
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 
@@ -337,7 +355,13 @@ footer .div-contact {
   .right-section .skills-container .skill-progress {
     width: 100%;
   }
-  footer .div-contact:nth-of-type(2n) {
+  footer .div-contact {
     visibility: hidden;
+  }
+  .footer-audio {
+    width: 155px;
+  }
+  .modal-dialog {
+    width: auto;
   }
 }
