@@ -1,11 +1,16 @@
 <?php
-ini_set("error_log", "error_log.log");
+ini_set("error_log", __DIR__."/error_log.log");
 
-require_once 'database/database.php';
-require_once 'session.php';
+error_log('User starting');
+
+require_once __DIR__.'/database/database.php';
+error_log('User require database');
+require_once __DIR__.'/session.php';
+error_log('User require session');
 
 class User {
 
+    public $id;
     public $email;
     public $password;
     public $is_admin;
@@ -13,11 +18,13 @@ class User {
     private static $inst = null;
 
     public function __construct() {
+      error_log('User __construct()');
       User::$session = Session::getInstance();
       $this->loadData();
     }
 
     public static function getInstance() {
+      error_log('User getInstance()');
         if (static::$inst === null) {
             static::$inst = new User();
 
@@ -26,10 +33,11 @@ class User {
     }
 
     private function loadData() {
+      error_log('User loadData()');
       $userSession = $this->getUserSession();
 
       if (isset($userSession) && !isset($this->email) && !isset($this->password)) {
-        error_log('loading data');
+        error_log('User loading data');
 
         $db = Database::getInstance();
         $pdo = $db->getPDO();
@@ -40,6 +48,7 @@ class User {
           $user_query = $user_query[0];
           error_log('user found: '.print_r($user_query, true));
 
+          $this->id = $user_query['id'];
           $this->email = $user_query['email'];
           $this->password = $user_query['password'];
           $this->is_admin = $user_query['is_admin'];
@@ -51,6 +60,7 @@ class User {
     }
 
     private function getUserSession() {
+      error_log('User getUserSession()');
       return User::$session->get_session_data( User::$session->get_user_session_name() );
     }
 

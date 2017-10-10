@@ -35,6 +35,8 @@ if ($user->isLoggedIn()) {
             <li><a href="product.php">Products</a></li>
           <?php else : ?>
             <li><a href="shop.php">Shop</a></li>
+            <li><a href="cart.php">Cart</a></li>
+            <li><a href="orders.php">Orders</a></li>
           <?php endif; ?>
         <?php endif; ?>
       </ul>

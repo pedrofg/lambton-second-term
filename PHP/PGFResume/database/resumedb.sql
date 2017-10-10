@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 09, 2017 at 02:24 AM
+-- Generation Time: Oct 11, 2017 at 01:22 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -78,6 +78,30 @@ CREATE TABLE `message` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `orders`
+--
+
+CREATE TABLE `orders` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `date` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `orders`
+--
+
+INSERT INTO `orders` (`id`, `user_id`, `product_id`, `date`) VALUES
+(3, 2, 9, '2017-10-10 19:04:55'),
+(4, 2, 3, '2017-10-10 19:04:55'),
+(5, 2, 4, '2017-10-10 19:07:17'),
+(6, 3, 4, '2017-10-10 19:20:47'),
+(7, 3, 9, '2017-10-10 19:20:47');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `portfolio`
 --
 
@@ -110,10 +134,22 @@ INSERT INTO `portfolio` (`id`, `img_location`) VALUES
 
 CREATE TABLE `product` (
   `id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
-  `value` decimal(10,2) DEFAULT '0.00'
+  `value` decimal(10,2) DEFAULT '0.00',
+  `img_location` varchar(100) DEFAULT NULL,
+  `file_location` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `product`
+--
+
+INSERT INTO `product` (`id`, `name`, `value`, `img_location`, `file_location`) VALUES
+(1, 'My App', '250.50', 'products/social_networks_equalizer-1920x1080.jpg', 'products/app.apk'),
+(2, 'Book PHP', '55.00', 'products/thumb-1920-499786.png', 'products/Amazon_refund_wifi_adapter.pdf'),
+(3, 'WordPress Website', '1000.00', 'products/wordpress.png', 'products/wordpress.rar'),
+(4, 'Landing Page', '200.00', 'products/landing_page.png', 'products/landing_page.html'),
+(9, 'App Designer', '850.00', 'products/designer_app.jpg', NULL);
 
 -- --------------------------------------------------------
 
@@ -188,8 +224,17 @@ CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `email` varchar(100) NOT NULL,
   `password` varchar(30) NOT NULL,
-  `is_admin` binary(1) DEFAULT '0'
+  `is_admin` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `email`, `password`, `is_admin`) VALUES
+(1, 'admin@resume.com', '123456', 1),
+(2, 'test@gmail.com', '123456', 0),
+(3, 'pedro@gmail.com', '123456', 0);
 
 -- --------------------------------------------------------
 
@@ -261,6 +306,12 @@ ALTER TABLE `message`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `orders`
+--
+ALTER TABLE `orders`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `portfolio`
 --
 ALTER TABLE `portfolio`
@@ -316,27 +367,32 @@ ALTER TABLE `work_link`
 -- AUTO_INCREMENT for table `education`
 --
 ALTER TABLE `education`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `language`
 --
 ALTER TABLE `language`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `message`
 --
 ALTER TABLE `message`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
+-- AUTO_INCREMENT for table `orders`
+--
+ALTER TABLE `orders`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+--
 -- AUTO_INCREMENT for table `portfolio`
 --
 ALTER TABLE `portfolio`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 --
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `profile`
 --
@@ -351,22 +407,22 @@ ALTER TABLE `purchase`
 -- AUTO_INCREMENT for table `skill`
 --
 ALTER TABLE `skill`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `work`
 --
 ALTER TABLE `work`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `work_link`
 --
 ALTER TABLE `work_link`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

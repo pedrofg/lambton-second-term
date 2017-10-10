@@ -32,9 +32,11 @@ $PRODUCT_IMAGE_PATH = 'resources/images/';
                 <td><?php echo $product['value'] ?></td>
                 <td><img src="<?php echo $PRODUCT_IMAGE_PATH.$product['img_location'] ?>" width="300px" height="300px" alt=""></td>
                 <td>
+                  <?php if (isset($product['file_location'])) : ?>
                     <a href="<?php echo $PRODUCT_FILE_PATH.$product['file_location'] ?>" class="btn btn-primary" style="color: white;">
                       <i class="fa fa-download" aria-hidden="true"></i>
                     </a>
+                  <?php endif; ?>
                 </td>
                 <td>
                   <form action="requests/delete_product.php" method="post" onSubmit="if(!confirm('Confirm delete of product?')){return false;}">

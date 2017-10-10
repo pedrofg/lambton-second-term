@@ -2,6 +2,7 @@
 class Session {
 
     private static $USER_SESSION = "user_session";
+    private static $CART_SESSION = "cart_session";
 
     public function __construct() {
       if( !isset($_SESSION) ){
@@ -52,6 +53,15 @@ class Session {
 
     public function get_user_session_name() {
       return Session::$USER_SESSION;
+    }
+
+    public function get_cart_session_name() {
+      return Session::$CART_SESSION;
+    }
+
+    public function clear_all_session() {
+      error_log('clear_all_session()');
+      session_destroy();
     }
 
 }
