@@ -39,6 +39,10 @@ class Database {
       return $sth->fetchAll();
     }
 
+    public function getPDO() {
+      return $this->dbh;
+    }
+
 }
 
 ?>

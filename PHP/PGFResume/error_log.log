@@ -1,0 +1,119 @@
+[10-Oct-2017 02:12:32 Europe/Berlin] loggind out
+[10-Oct-2017 02:12:32 Europe/Berlin] delete_session: user_session
+[10-Oct-2017 02:12:32 Europe/Berlin] sessions is empty
+[10-Oct-2017 02:12:32 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:12:32 Europe/Berlin] isLoggedIn false
+[10-Oct-2017 02:12:35 Europe/Berlin] Signing up...
+[10-Oct-2017 02:12:35 Europe/Berlin] $email: 
+[10-Oct-2017 02:12:35 Europe/Berlin] $password: 
+[10-Oct-2017 02:12:35 Europe/Berlin] This account already exists: 
+[10-Oct-2017 02:13:51 Europe/Berlin] sessions is empty
+[10-Oct-2017 02:13:51 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:13:51 Europe/Berlin] isLoggedIn false
+[10-Oct-2017 02:13:53 Europe/Berlin] Signing up...
+[10-Oct-2017 02:13:56 Europe/Berlin] Signing up...
+[10-Oct-2017 02:13:59 Europe/Berlin] Signing up...
+[10-Oct-2017 02:14:01 Europe/Berlin] Signing up...
+[10-Oct-2017 02:14:03 Europe/Berlin] Signing up...
+[10-Oct-2017 02:14:03 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:14:03 Europe/Berlin] $password: 123456
+[10-Oct-2017 02:14:03 Europe/Berlin] New account
+[10-Oct-2017 02:14:03 Europe/Berlin] Add User: 1
+[10-Oct-2017 02:14:03 Europe/Berlin] set_session_data: user_session - test@gmail.com2
+[10-Oct-2017 02:14:03 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:14:03 Europe/Berlin] loading data
+[10-Oct-2017 02:14:03 Europe/Berlin] user found: Array
+(
+    [id] => 19
+    [0] => 19
+    [email] => test@gmail.com2
+    [1] => test@gmail.com2
+    [password] => 123456
+    [2] => 123456
+    [is_admin] => 0
+    [3] => 0
+)
+
+[10-Oct-2017 02:14:03 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:14:03 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:14:03 Europe/Berlin] isLoggedIn true
+[10-Oct-2017 02:14:05 Europe/Berlin] loggind out
+[10-Oct-2017 02:14:05 Europe/Berlin] delete_session: user_session
+[10-Oct-2017 02:14:05 Europe/Berlin] sessions is empty
+[10-Oct-2017 02:14:05 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:14:05 Europe/Berlin] isLoggedIn false
+[10-Oct-2017 02:14:42 Europe/Berlin] Logging in...
+[10-Oct-2017 02:14:42 Europe/Berlin] $email: 
+[10-Oct-2017 02:14:42 Europe/Berlin] $password: 
+[10-Oct-2017 02:14:42 Europe/Berlin] Loggin error
+[10-Oct-2017 02:14:46 Europe/Berlin] Logging in...
+[10-Oct-2017 02:14:46 Europe/Berlin] $email: 
+[10-Oct-2017 02:14:46 Europe/Berlin] $password: 
+[10-Oct-2017 02:14:46 Europe/Berlin] Loggin error
+[10-Oct-2017 02:15:01 Europe/Berlin] Signing up...
+[10-Oct-2017 02:15:03 Europe/Berlin] Signing up...
+[10-Oct-2017 02:15:03 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:15:03 Europe/Berlin] $password: 123456
+[10-Oct-2017 02:15:03 Europe/Berlin] New account
+[10-Oct-2017 02:15:03 Europe/Berlin] Add User: 1
+[10-Oct-2017 02:15:03 Europe/Berlin] set_session_data: user_session - test@gmail.com2
+[10-Oct-2017 02:15:03 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:15:03 Europe/Berlin] loading data
+[10-Oct-2017 02:15:03 Europe/Berlin] user found: Array
+(
+    [id] => 20
+    [0] => 20
+    [email] => test@gmail.com2
+    [1] => test@gmail.com2
+    [password] => 123456
+    [2] => 123456
+    [is_admin] => 0
+    [3] => 0
+)
+
+[10-Oct-2017 02:15:03 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:15:03 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:15:03 Europe/Berlin] isLoggedIn true
+[10-Oct-2017 02:15:06 Europe/Berlin] loggind out
+[10-Oct-2017 02:15:06 Europe/Berlin] delete_session: user_session
+[10-Oct-2017 02:15:06 Europe/Berlin] sessions is empty
+[10-Oct-2017 02:15:06 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:15:06 Europe/Berlin] isLoggedIn false
+[10-Oct-2017 02:15:11 Europe/Berlin] Signing up...
+[10-Oct-2017 02:15:11 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:15:11 Europe/Berlin] $password: 123456
+[10-Oct-2017 02:15:11 Europe/Berlin] This account already exists: test@gmail.com2
+[10-Oct-2017 02:15:14 Europe/Berlin] Signing up...
+[10-Oct-2017 02:15:14 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:15:14 Europe/Berlin] $password: 1234567
+[10-Oct-2017 02:15:15 Europe/Berlin] This account already exists: test@gmail.com2
+[10-Oct-2017 02:15:20 Europe/Berlin] Logging in...
+[10-Oct-2017 02:15:20 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:15:20 Europe/Berlin] $password: 111111
+[10-Oct-2017 02:15:20 Europe/Berlin] Loggin error
+[10-Oct-2017 02:15:22 Europe/Berlin] Logging in...
+[10-Oct-2017 02:15:22 Europe/Berlin] $email: test@gmail.com2
+[10-Oct-2017 02:15:22 Europe/Berlin] $password: 123456
+[10-Oct-2017 02:15:22 Europe/Berlin] set_session_data: user_session - test@gmail.com2
+[10-Oct-2017 02:15:22 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:15:22 Europe/Berlin] loading data
+[10-Oct-2017 02:15:22 Europe/Berlin] user found: Array
+(
+    [id] => 20
+    [0] => 20
+    [email] => test@gmail.com2
+    [1] => test@gmail.com2
+    [password] => 123456
+    [2] => 123456
+    [is_admin] => 0
+    [3] => 0
+)
+
+[10-Oct-2017 02:15:22 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:15:22 Europe/Berlin] get_session_data: test@gmail.com2
+[10-Oct-2017 02:15:22 Europe/Berlin] isLoggedIn true
+[10-Oct-2017 02:15:24 Europe/Berlin] loggind out
+[10-Oct-2017 02:15:24 Europe/Berlin] delete_session: user_session
+[10-Oct-2017 02:15:24 Europe/Berlin] sessions is empty
+[10-Oct-2017 02:15:24 Europe/Berlin] calling isLoggedIn
+[10-Oct-2017 02:15:24 Europe/Berlin] isLoggedIn false

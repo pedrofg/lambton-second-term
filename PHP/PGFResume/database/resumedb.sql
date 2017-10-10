@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2017 at 02:31 AM
+-- Generation Time: Oct 09, 2017 at 02:24 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -28,7 +28,6 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `education` (
   `id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `level` varchar(100) NOT NULL,
   `institution` varchar(100) NOT NULL,
@@ -40,9 +39,9 @@ CREATE TABLE `education` (
 -- Dumping data for table `education`
 --
 
-INSERT INTO `education` (`id`, `profile_id`, `name`, `level`, `institution`, `date_start`, `date_end`) VALUES
-(1, 1, 'Application Development', 'PgD', 'Lambton College', '2017-07-04 00:00:00', '2019-02-08 00:00:00'),
-(2, 1, 'System Development', 'BSc', 'Unibratec College', '2009-09-04 00:00:00', '2012-10-04 00:00:00');
+INSERT INTO `education` (`id`, `name`, `level`, `institution`, `date_start`, `date_end`) VALUES
+(1, 'Application Development', 'PgD', 'Lambton College', '2017-07-04 00:00:00', '2019-02-08 00:00:00'),
+(2, 'System Development', 'BSc', 'Unibratec College', '2009-09-04 00:00:00', '2012-10-04 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -52,37 +51,17 @@ INSERT INTO `education` (`id`, `profile_id`, `name`, `level`, `institution`, `da
 
 CREATE TABLE `language` (
   `id` int(11) NOT NULL,
-  `name` varchar(100) NOT NULL
+  `name` varchar(100) NOT NULL,
+  `level` varchar(50) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `language`
 --
 
-INSERT INTO `language` (`id`, `name`) VALUES
-(1, 'Portuguese'),
-(2, 'English');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `language_profile`
---
-
-CREATE TABLE `language_profile` (
-  `id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
-  `language_id` int(11) NOT NULL,
-  `level` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `language_profile`
---
-
-INSERT INTO `language_profile` (`id`, `profile_id`, `language_id`, `level`) VALUES
-(1, 1, 1, 'Native'),
-(2, 1, 2, 'Fluent');
+INSERT INTO `language` (`id`, `name`, `level`) VALUES
+(1, 'Portuguese', 'Native'),
+(2, 'English', 'Fluent');
 
 -- --------------------------------------------------------
 
@@ -93,7 +72,6 @@ INSERT INTO `language_profile` (`id`, `profile_id`, `language_id`, `level`) VALU
 CREATE TABLE `message` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
   `message` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -105,7 +83,6 @@ CREATE TABLE `message` (
 
 CREATE TABLE `portfolio` (
   `id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
   `img_location` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
@@ -113,17 +90,17 @@ CREATE TABLE `portfolio` (
 -- Dumping data for table `portfolio`
 --
 
-INSERT INTO `portfolio` (`id`, `profile_id`, `img_location`) VALUES
-(1, 1, 'resume/resume1.jpg'),
-(2, 1, 'resume/resume2.jpg'),
-(3, 1, 'resume/resume3.jpg'),
-(4, 1, 'resume/resume4.jpg'),
-(5, 1, 'resume/resume5.jpg'),
-(6, 1, 'resume/resume6.jpg'),
-(7, 1, 'resume/resume7.jpg'),
-(8, 1, 'resume/resume8.jpg'),
-(9, 1, 'resume/resume9.jpg'),
-(10, 1, 'resume/resume10.jpg');
+INSERT INTO `portfolio` (`id`, `img_location`) VALUES
+(1, 'resume/resume1.jpg'),
+(2, 'resume/resume2.jpg'),
+(3, 'resume/resume3.jpg'),
+(4, 'resume/resume4.jpg'),
+(5, 'resume/resume5.jpg'),
+(6, 'resume/resume6.jpg'),
+(7, 'resume/resume7.jpg'),
+(8, 'resume/resume8.jpg'),
+(9, 'resume/resume9.jpg'),
+(10, 'resume/resume10.jpg');
 
 -- --------------------------------------------------------
 
@@ -186,43 +163,20 @@ CREATE TABLE `purchase` (
 
 CREATE TABLE `skill` (
   `id` int(11) NOT NULL,
-  `name` varchar(50) DEFAULT NULL
+  `name` varchar(50) DEFAULT NULL,
+  `years` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `skill`
 --
 
-INSERT INTO `skill` (`id`, `name`) VALUES
-(2, 'Java'),
-(3, 'Android'),
-(4, 'Javascript'),
-(5, 'HTML'),
-(6, 'CSS');
-
--- --------------------------------------------------------
-
---
--- Table structure for table `skill_profile`
---
-
-CREATE TABLE `skill_profile` (
-  `id` int(11) NOT NULL,
-  `skill_id` int(11) NOT NULL,
-  `profile_id` int(11) NOT NULL,
-  `years` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `skill_profile`
---
-
-INSERT INTO `skill_profile` (`id`, `skill_id`, `profile_id`, `years`) VALUES
-(1, 2, 1, 5),
-(2, 3, 1, 4),
-(3, 4, 1, 3),
-(4, 5, 1, 2),
-(5, 6, 1, 1);
+INSERT INTO `skill` (`id`, `name`, `years`) VALUES
+(2, 'Java', 5),
+(3, 'Android', 4),
+(4, 'Javascript', 3),
+(5, 'HTML', 2),
+(6, 'CSS', 1);
 
 -- --------------------------------------------------------
 
@@ -245,7 +199,6 @@ CREATE TABLE `users` (
 
 CREATE TABLE `work` (
   `id` int(11) NOT NULL,
-  `profile_id` int(11) DEFAULT NULL,
   `date_start` datetime NOT NULL,
   `date_end` datetime DEFAULT NULL,
   `position` varchar(50) DEFAULT NULL,
@@ -256,10 +209,10 @@ CREATE TABLE `work` (
 -- Dumping data for table `work`
 --
 
-INSERT INTO `work` (`id`, `profile_id`, `date_start`, `date_end`, `position`, `company`) VALUES
-(1, 1, '2017-04-04 00:00:00', NULL, 'Software Engineer and Team Leader', 'Geolance Tech'),
-(2, 1, '2012-10-04 00:00:00', '2016-10-04 00:00:00', 'Software Engineer', 'Samsung CIN/Ufpe'),
-(3, 1, '2011-10-04 00:00:00', '2012-10-04 00:00:00', 'Traineer', 'Samsung CIN/Ufpe');
+INSERT INTO `work` (`id`, `date_start`, `date_end`, `position`, `company`) VALUES
+(1, '2017-04-04 00:00:00', NULL, 'Software Engineer and Team Leader', 'Geolance Tech'),
+(2, '2012-10-04 00:00:00', '2016-10-04 00:00:00', 'Software Engineer', 'Samsung CIN/Ufpe'),
+(3, '2011-10-04 00:00:00', '2012-10-04 00:00:00', 'Traineer', 'Samsung CIN/Ufpe');
 
 -- --------------------------------------------------------
 
@@ -302,12 +255,6 @@ ALTER TABLE `language`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `language_profile`
---
-ALTER TABLE `language_profile`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `message`
 --
 ALTER TABLE `message`
@@ -344,12 +291,6 @@ ALTER TABLE `skill`
   ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `skill_profile`
---
-ALTER TABLE `skill_profile`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
@@ -375,17 +316,12 @@ ALTER TABLE `work_link`
 -- AUTO_INCREMENT for table `education`
 --
 ALTER TABLE `education`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT for table `language`
 --
 ALTER TABLE `language`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
---
--- AUTO_INCREMENT for table `language_profile`
---
-ALTER TABLE `language_profile`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `message`
 --
@@ -395,7 +331,7 @@ ALTER TABLE `message`
 -- AUTO_INCREMENT for table `portfolio`
 --
 ALTER TABLE `portfolio`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `product`
 --
@@ -415,12 +351,7 @@ ALTER TABLE `purchase`
 -- AUTO_INCREMENT for table `skill`
 --
 ALTER TABLE `skill`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
---
--- AUTO_INCREMENT for table `skill_profile`
---
-ALTER TABLE `skill_profile`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 --
 -- AUTO_INCREMENT for table `users`
 --
@@ -430,12 +361,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `work`
 --
 ALTER TABLE `work`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- AUTO_INCREMENT for table `work_link`
 --
 ALTER TABLE `work_link`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

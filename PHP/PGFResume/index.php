@@ -24,7 +24,7 @@
       <p class="title">EDUCATION</p>
 
       <?php
-        $educations = $db->query('SELECT * FROM education WHERE profile_id = 1');
+        $educations = $db->query('SELECT * FROM education');
         foreach ($educations as $education) :
           $date_start = date("Y", strtotime($education['date_start']));
           $date_end = date("Y", strtotime($education['date_end']));
@@ -40,7 +40,7 @@
       <p class="title">Languages</p>
 
       <?php
-        $languages = $db->query('SELECT * FROM language as l INNER JOIN language_profile as lp ON l.id = lp.language_id WHERE profile_id = 1');
+        $languages = $db->query('SELECT * FROM language');
         foreach ($languages as $language) :
       ?>
           <p class="language-name"><?php echo $language['name'] ?> <span class="language-level">(<?php echo $language['level'] ?>)</span></p>
@@ -65,7 +65,7 @@
       <p class="right-title"><i class="fa fa-briefcase" aria-hidden="true"></i>Work Experience</p>
       <ul class="work-ul">
         <?php
-          $works = $db->query('SELECT * FROM work WHERE profile_id = 1');
+          $works = $db->query('SELECT * FROM work');
           foreach ($works as $work) :
             $date_start = date("Y", strtotime($work['date_start']));
             if (isset($work['date_end'])) {
@@ -101,7 +101,7 @@
       <p class="right-title"><i class="fa fa-graduation-cap"></i>Skills</p>
 
       <?php
-        $skills = $db->query('SELECT * FROM skill as s INNER JOIN skill_profile as sp ON s.id = sp.skill_id WHERE sp.profile_id = 1');
+        $skills = $db->query('SELECT * FROM skill ORDER BY years DESC');
         foreach ($skills as $skill) :
       ?>
         <div class="skill">
@@ -125,7 +125,7 @@
     <!-- Using owl carousel classes to make the paginated list for us -->
     <div class="owl-carousel owl-theme">
       <?php
-        $portfolios = $db->query('SELECT * FROM portfolio WHERE profile_id = 1');
+        $portfolios = $db->query('SELECT * FROM portfolio');
         foreach ($portfolios as $portfolio) :
       ?>
         <img class="profile" src="<?php echo $IMG_PATH.$portfolio['img_location'] ?>" alt="" />
