@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 11, 2017 at 01:22 AM
+-- Generation Time: Oct 12, 2017 at 11:26 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -97,7 +97,14 @@ INSERT INTO `orders` (`id`, `user_id`, `product_id`, `date`) VALUES
 (4, 2, 3, '2017-10-10 19:04:55'),
 (5, 2, 4, '2017-10-10 19:07:17'),
 (6, 3, 4, '2017-10-10 19:20:47'),
-(7, 3, 9, '2017-10-10 19:20:47');
+(7, 3, 9, '2017-10-10 19:20:47'),
+(8, 2, 10, '2017-10-12 15:46:51'),
+(9, 4, 3, '2017-10-12 16:13:38'),
+(10, 4, 2, '2017-10-12 16:13:38'),
+(11, 4, 1, '2017-10-12 16:22:42'),
+(12, 5, 12, '2017-10-12 17:25:46'),
+(13, 5, 13, '2017-10-12 17:25:46'),
+(14, 5, 11, '2017-10-12 17:25:46');
 
 -- --------------------------------------------------------
 
@@ -149,7 +156,12 @@ INSERT INTO `product` (`id`, `name`, `value`, `img_location`, `file_location`) V
 (2, 'Book PHP', '55.00', 'products/thumb-1920-499786.png', 'products/Amazon_refund_wifi_adapter.pdf'),
 (3, 'WordPress Website', '1000.00', 'products/wordpress.png', 'products/wordpress.rar'),
 (4, 'Landing Page', '200.00', 'products/landing_page.png', 'products/landing_page.html'),
-(9, 'App Designer', '850.00', 'products/designer_app.jpg', NULL);
+(9, 'App Designer', '850.00', 'products/designer_app.jpg', NULL),
+(10, 'Work Hours ( 50h )', '1500.00', 'products/work_hours.jpg', NULL),
+(11, 'NodeJS Api', '6749.99', 'products/node_js_api.png', 'products/node_js_api.png'),
+(12, 'Movies Feed Android App', '5000.00', 'products/moviesfeed.png', 'products/moviesfeed.apk'),
+(13, 'Work Hours ( 30h )', '900.00', 'products/work_hours.jpg', NULL),
+(14, 'GIT Course', '500.00', 'products/git.png', 'products/git_link.txt');
 
 -- --------------------------------------------------------
 
@@ -223,6 +235,7 @@ INSERT INTO `skill` (`id`, `name`, `years`) VALUES
 CREATE TABLE `users` (
   `id` int(11) NOT NULL,
   `email` varchar(100) NOT NULL,
+  `username` varchar(200) DEFAULT NULL,
   `password` varchar(30) NOT NULL,
   `is_admin` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -231,10 +244,12 @@ CREATE TABLE `users` (
 -- Dumping data for table `users`
 --
 
-INSERT INTO `users` (`id`, `email`, `password`, `is_admin`) VALUES
-(1, 'admin@resume.com', '123456', 1),
-(2, 'test@gmail.com', '123456', 0),
-(3, 'pedro@gmail.com', '123456', 0);
+INSERT INTO `users` (`id`, `email`, `username`, `password`, `is_admin`) VALUES
+(1, 'admin@resume.com', 'admin', '123456', 1),
+(2, 'test@gmail.com', 'test', '123456', 0),
+(3, 'pedro@gmail.com', 'pedrogf', '123456', 0),
+(4, 'johndoe@outlook.com', 'johndoe', '123456', 0),
+(5, 'kate@gmail.com', 'kate', '123456', 0);
 
 -- --------------------------------------------------------
 
@@ -382,7 +397,7 @@ ALTER TABLE `message`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `portfolio`
 --
@@ -392,7 +407,7 @@ ALTER TABLE `portfolio`
 -- AUTO_INCREMENT for table `product`
 --
 ALTER TABLE `product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 --
 -- AUTO_INCREMENT for table `profile`
 --
@@ -407,12 +422,12 @@ ALTER TABLE `purchase`
 -- AUTO_INCREMENT for table `skill`
 --
 ALTER TABLE `skill`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `work`
 --
