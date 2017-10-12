@@ -1,0 +1,1888 @@
+[12-Oct-2017 22:30:21 Europe/Berlin] loggind out
+[12-Oct-2017 22:30:21 Europe/Berlin] clear_all_session()
+[12-Oct-2017 22:30:21 Europe/Berlin] User starting
+[12-Oct-2017 22:30:21 Europe/Berlin] User require database
+[12-Oct-2017 22:30:21 Europe/Berlin] User require session
+[12-Oct-2017 22:30:21 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:30:21 Europe/Berlin] User __construct()
+[12-Oct-2017 22:30:21 Europe/Berlin] User loadData()
+[12-Oct-2017 22:30:21 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:21 Europe/Berlin] sessions is empty
+[12-Oct-2017 22:30:21 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:30:21 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:21 Europe/Berlin] isLoggedIn false
+[12-Oct-2017 22:30:27 Europe/Berlin] Logging in...
+[12-Oct-2017 22:30:27 Europe/Berlin] $email: admin
+[12-Oct-2017 22:30:27 Europe/Berlin] $password: 123456
+[12-Oct-2017 22:30:27 Europe/Berlin] set_session_data: user_session - admin
+[12-Oct-2017 22:30:27 Europe/Berlin] User starting
+[12-Oct-2017 22:30:27 Europe/Berlin] User require database
+[12-Oct-2017 22:30:27 Europe/Berlin] User require session
+[12-Oct-2017 22:30:27 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:30:27 Europe/Berlin] User __construct()
+[12-Oct-2017 22:30:27 Europe/Berlin] User loadData()
+[12-Oct-2017 22:30:27 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:27 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:30:27 Europe/Berlin] User loading data
+[12-Oct-2017 22:30:27 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:30:27 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:30:27 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:27 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:30:27 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:30:28 Europe/Berlin] User starting
+[12-Oct-2017 22:30:28 Europe/Berlin] User require database
+[12-Oct-2017 22:30:28 Europe/Berlin] User require session
+[12-Oct-2017 22:30:28 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:30:28 Europe/Berlin] User __construct()
+[12-Oct-2017 22:30:28 Europe/Berlin] User loadData()
+[12-Oct-2017 22:30:28 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:28 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:30:28 Europe/Berlin] User loading data
+[12-Oct-2017 22:30:28 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:30:28 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:30:28 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:30:28 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:30:28 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:32:49 Europe/Berlin] $file_name: node_js_api.png
+[12-Oct-2017 22:32:49 Europe/Berlin] $target_file: ../resources/products/node_js_api.png
+[12-Oct-2017 22:32:49 Europe/Berlin] $image_name: node_js_api.png
+[12-Oct-2017 22:32:49 Europe/Berlin] $target_image: ../resources/images/products/node_js_api.png
+[12-Oct-2017 22:32:49 Europe/Berlin] Add Product: 1
+[12-Oct-2017 22:32:49 Europe/Berlin] User starting
+[12-Oct-2017 22:32:49 Europe/Berlin] User require database
+[12-Oct-2017 22:32:49 Europe/Berlin] User require session
+[12-Oct-2017 22:32:49 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:32:49 Europe/Berlin] User __construct()
+[12-Oct-2017 22:32:49 Europe/Berlin] User loadData()
+[12-Oct-2017 22:32:49 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:32:49 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:32:49 Europe/Berlin] User loading data
+[12-Oct-2017 22:32:49 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:32:49 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:32:49 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:32:49 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:32:49 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:35:37 Europe/Berlin] $file_name: moviesfeed.apk
+[12-Oct-2017 22:35:37 Europe/Berlin] $target_file: ../resources/products/moviesfeed.apk
+[12-Oct-2017 22:35:37 Europe/Berlin] $image_name: moviesfeed.png
+[12-Oct-2017 22:35:37 Europe/Berlin] $target_image: ../resources/images/products/moviesfeed.png
+[12-Oct-2017 22:35:37 Europe/Berlin] Add Product: 1
+[12-Oct-2017 22:35:37 Europe/Berlin] User starting
+[12-Oct-2017 22:35:37 Europe/Berlin] User require database
+[12-Oct-2017 22:35:37 Europe/Berlin] User require session
+[12-Oct-2017 22:35:37 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:35:37 Europe/Berlin] User __construct()
+[12-Oct-2017 22:35:37 Europe/Berlin] User loadData()
+[12-Oct-2017 22:35:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:35:37 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:35:37 Europe/Berlin] User loading data
+[12-Oct-2017 22:35:37 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:35:37 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:35:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:35:37 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:35:37 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:37:04 Europe/Berlin] $image_name: work_hours.jpg
+[12-Oct-2017 22:37:04 Europe/Berlin] $target_image: ../resources/images/products/work_hours.jpg
+[12-Oct-2017 22:37:04 Europe/Berlin] Add Product: 1
+[12-Oct-2017 22:37:04 Europe/Berlin] User starting
+[12-Oct-2017 22:37:04 Europe/Berlin] User require database
+[12-Oct-2017 22:37:04 Europe/Berlin] User require session
+[12-Oct-2017 22:37:04 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:37:04 Europe/Berlin] User __construct()
+[12-Oct-2017 22:37:04 Europe/Berlin] User loadData()
+[12-Oct-2017 22:37:04 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:37:04 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:37:04 Europe/Berlin] User loading data
+[12-Oct-2017 22:37:04 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:37:04 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:37:04 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:37:04 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:37:04 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:40:13 Europe/Berlin] $file_name: git_link.txt
+[12-Oct-2017 22:40:13 Europe/Berlin] $target_file: ../resources/products/git_link.txt
+[12-Oct-2017 22:40:13 Europe/Berlin] $image_name: git.png
+[12-Oct-2017 22:40:13 Europe/Berlin] $target_image: ../resources/images/products/git.png
+[12-Oct-2017 22:40:13 Europe/Berlin] Add Product: 1
+[12-Oct-2017 22:40:13 Europe/Berlin] User starting
+[12-Oct-2017 22:40:13 Europe/Berlin] User require database
+[12-Oct-2017 22:40:13 Europe/Berlin] User require session
+[12-Oct-2017 22:40:13 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:13 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:13 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:13 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:13 Europe/Berlin] User loading data
+[12-Oct-2017 22:40:13 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:40:13 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:13 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:13 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:40:19 Europe/Berlin] User starting
+[12-Oct-2017 22:40:19 Europe/Berlin] User require database
+[12-Oct-2017 22:40:19 Europe/Berlin] User require session
+[12-Oct-2017 22:40:19 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:19 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:19 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:19 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:19 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:19 Europe/Berlin] User loading data
+[12-Oct-2017 22:40:19 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:40:19 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:19 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:19 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:19 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:40:23 Europe/Berlin] User starting
+[12-Oct-2017 22:40:23 Europe/Berlin] User require database
+[12-Oct-2017 22:40:23 Europe/Berlin] User require session
+[12-Oct-2017 22:40:23 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:23 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:23 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:23 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:23 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:23 Europe/Berlin] User loading data
+[12-Oct-2017 22:40:23 Europe/Berlin] user found: Array
+(
+    [id] => 1
+    [0] => 1
+    [email] => admin@resume.com
+    [1] => admin@resume.com
+    [username] => admin
+    [2] => admin
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 1
+    [4] => 1
+)
+
+[12-Oct-2017 22:40:23 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:23 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:23 Europe/Berlin] get_session_data: admin
+[12-Oct-2017 22:40:23 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:40:27 Europe/Berlin] loggind out
+[12-Oct-2017 22:40:27 Europe/Berlin] clear_all_session()
+[12-Oct-2017 22:40:27 Europe/Berlin] User starting
+[12-Oct-2017 22:40:27 Europe/Berlin] User require database
+[12-Oct-2017 22:40:27 Europe/Berlin] User require session
+[12-Oct-2017 22:40:27 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:27 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:27 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:27 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:27 Europe/Berlin] sessions is empty
+[12-Oct-2017 22:40:27 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:27 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:27 Europe/Berlin] isLoggedIn false
+[12-Oct-2017 22:40:28 Europe/Berlin] Logging in...
+[12-Oct-2017 22:40:28 Europe/Berlin] $email: kate
+[12-Oct-2017 22:40:28 Europe/Berlin] $password: 123456
+[12-Oct-2017 22:40:28 Europe/Berlin] set_session_data: user_session - kate
+[12-Oct-2017 22:40:28 Europe/Berlin] User starting
+[12-Oct-2017 22:40:28 Europe/Berlin] User require database
+[12-Oct-2017 22:40:28 Europe/Berlin] User require session
+[12-Oct-2017 22:40:28 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:28 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:28 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:28 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:28 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:40:28 Europe/Berlin] User loading data
+[12-Oct-2017 22:40:28 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:40:28 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:28 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:28 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:40:29 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:40:29 Europe/Berlin] User starting
+[12-Oct-2017 22:40:29 Europe/Berlin] User require database
+[12-Oct-2017 22:40:29 Europe/Berlin] User require session
+[12-Oct-2017 22:40:29 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:40:29 Europe/Berlin] User __construct()
+[12-Oct-2017 22:40:29 Europe/Berlin] User loadData()
+[12-Oct-2017 22:40:29 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:29 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:40:29 Europe/Berlin] User loading data
+[12-Oct-2017 22:40:29 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:40:29 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:40:29 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:40:29 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:40:29 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:41:13 Europe/Berlin] User starting
+[12-Oct-2017 22:41:13 Europe/Berlin] User require database
+[12-Oct-2017 22:41:13 Europe/Berlin] User require session
+[12-Oct-2017 22:41:13 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:41:13 Europe/Berlin] User __construct()
+[12-Oct-2017 22:41:13 Europe/Berlin] User loadData()
+[12-Oct-2017 22:41:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:41:13 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:41:13 Europe/Berlin] User loading data
+[12-Oct-2017 22:41:13 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:41:13 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:41:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:41:13 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:41:13 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:42:42 Europe/Berlin] User starting
+[12-Oct-2017 22:42:42 Europe/Berlin] User require database
+[12-Oct-2017 22:42:42 Europe/Berlin] User require session
+[12-Oct-2017 22:42:42 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:42:42 Europe/Berlin] User __construct()
+[12-Oct-2017 22:42:42 Europe/Berlin] User loadData()
+[12-Oct-2017 22:42:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:42:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:42:42 Europe/Berlin] User loading data
+[12-Oct-2017 22:42:42 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:42:42 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:42:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:42:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:42:42 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:43:17 Europe/Berlin] User starting
+[12-Oct-2017 22:43:17 Europe/Berlin] User require database
+[12-Oct-2017 22:43:17 Europe/Berlin] User require session
+[12-Oct-2017 22:43:17 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:43:17 Europe/Berlin] User __construct()
+[12-Oct-2017 22:43:17 Europe/Berlin] User loadData()
+[12-Oct-2017 22:43:17 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:17 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:17 Europe/Berlin] User loading data
+[12-Oct-2017 22:43:17 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:43:17 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:43:17 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:17 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:17 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:43:22 Europe/Berlin] User starting
+[12-Oct-2017 22:43:22 Europe/Berlin] User require database
+[12-Oct-2017 22:43:22 Europe/Berlin] User require session
+[12-Oct-2017 22:43:22 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:43:22 Europe/Berlin] User __construct()
+[12-Oct-2017 22:43:22 Europe/Berlin] User loadData()
+[12-Oct-2017 22:43:22 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:22 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:22 Europe/Berlin] User loading data
+[12-Oct-2017 22:43:22 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:43:22 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:43:22 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:23 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:23 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:43:31 Europe/Berlin] User starting
+[12-Oct-2017 22:43:31 Europe/Berlin] User require database
+[12-Oct-2017 22:43:31 Europe/Berlin] User require session
+[12-Oct-2017 22:43:31 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:43:31 Europe/Berlin] User __construct()
+[12-Oct-2017 22:43:31 Europe/Berlin] User loadData()
+[12-Oct-2017 22:43:31 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:31 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:31 Europe/Berlin] User loading data
+[12-Oct-2017 22:43:31 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:43:31 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:43:31 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:31 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:31 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:43:54 Europe/Berlin] User starting
+[12-Oct-2017 22:43:54 Europe/Berlin] User require database
+[12-Oct-2017 22:43:54 Europe/Berlin] User require session
+[12-Oct-2017 22:43:54 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:43:54 Europe/Berlin] User __construct()
+[12-Oct-2017 22:43:54 Europe/Berlin] User loadData()
+[12-Oct-2017 22:43:54 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:54 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:54 Europe/Berlin] User loading data
+[12-Oct-2017 22:43:54 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:43:54 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:43:54 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:54 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:54 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:43:59 Europe/Berlin] User starting
+[12-Oct-2017 22:43:59 Europe/Berlin] User require database
+[12-Oct-2017 22:43:59 Europe/Berlin] User require session
+[12-Oct-2017 22:43:59 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:43:59 Europe/Berlin] User __construct()
+[12-Oct-2017 22:43:59 Europe/Berlin] User loadData()
+[12-Oct-2017 22:43:59 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:59 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:59 Europe/Berlin] User loading data
+[12-Oct-2017 22:43:59 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:43:59 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:43:59 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:43:59 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:43:59 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:44:41 Europe/Berlin] User starting
+[12-Oct-2017 22:44:41 Europe/Berlin] User require database
+[12-Oct-2017 22:44:41 Europe/Berlin] User require session
+[12-Oct-2017 22:44:41 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:44:41 Europe/Berlin] User __construct()
+[12-Oct-2017 22:44:41 Europe/Berlin] User loadData()
+[12-Oct-2017 22:44:41 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:44:41 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:44:41 Europe/Berlin] User loading data
+[12-Oct-2017 22:44:41 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:44:41 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:44:41 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:44:41 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:44:41 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:45:34 Europe/Berlin] User starting
+[12-Oct-2017 22:45:34 Europe/Berlin] User require database
+[12-Oct-2017 22:45:34 Europe/Berlin] User require session
+[12-Oct-2017 22:45:34 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:45:34 Europe/Berlin] User __construct()
+[12-Oct-2017 22:45:34 Europe/Berlin] User loadData()
+[12-Oct-2017 22:45:34 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:45:34 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:45:34 Europe/Berlin] User loading data
+[12-Oct-2017 22:45:34 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:45:34 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:45:34 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:45:34 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:45:34 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:46:50 Europe/Berlin] User starting
+[12-Oct-2017 22:46:50 Europe/Berlin] User require database
+[12-Oct-2017 22:46:50 Europe/Berlin] User require session
+[12-Oct-2017 22:46:50 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:46:51 Europe/Berlin] User __construct()
+[12-Oct-2017 22:46:51 Europe/Berlin] User loadData()
+[12-Oct-2017 22:46:51 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:46:51 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:46:51 Europe/Berlin] User loading data
+[12-Oct-2017 22:46:51 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:46:51 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:46:51 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:46:51 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:46:51 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:47:03 Europe/Berlin] User starting
+[12-Oct-2017 22:47:03 Europe/Berlin] User require database
+[12-Oct-2017 22:47:03 Europe/Berlin] User require session
+[12-Oct-2017 22:47:03 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:47:03 Europe/Berlin] User __construct()
+[12-Oct-2017 22:47:03 Europe/Berlin] User loadData()
+[12-Oct-2017 22:47:03 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:47:03 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:47:03 Europe/Berlin] User loading data
+[12-Oct-2017 22:47:03 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:47:03 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:47:03 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:47:03 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:47:03 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:49:48 Europe/Berlin] User starting
+[12-Oct-2017 22:49:48 Europe/Berlin] User require database
+[12-Oct-2017 22:49:48 Europe/Berlin] User require session
+[12-Oct-2017 22:49:48 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:49:48 Europe/Berlin] User __construct()
+[12-Oct-2017 22:49:48 Europe/Berlin] User loadData()
+[12-Oct-2017 22:49:48 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:49:48 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:49:48 Europe/Berlin] User loading data
+[12-Oct-2017 22:49:48 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:49:48 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:49:48 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:49:48 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:49:48 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:49:51 Europe/Berlin] User starting
+[12-Oct-2017 22:49:51 Europe/Berlin] User require database
+[12-Oct-2017 22:49:51 Europe/Berlin] User require session
+[12-Oct-2017 22:49:51 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:49:51 Europe/Berlin] User __construct()
+[12-Oct-2017 22:49:51 Europe/Berlin] User loadData()
+[12-Oct-2017 22:49:51 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:49:51 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:49:51 Europe/Berlin] User loading data
+[12-Oct-2017 22:49:51 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:49:51 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:49:51 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:49:51 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:49:51 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:50:01 Europe/Berlin] User starting
+[12-Oct-2017 22:50:01 Europe/Berlin] User require database
+[12-Oct-2017 22:50:01 Europe/Berlin] User require session
+[12-Oct-2017 22:50:01 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:50:01 Europe/Berlin] User __construct()
+[12-Oct-2017 22:50:01 Europe/Berlin] User loadData()
+[12-Oct-2017 22:50:01 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:01 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:01 Europe/Berlin] User loading data
+[12-Oct-2017 22:50:01 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:50:01 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:50:01 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:01 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:01 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:50:03 Europe/Berlin] User starting
+[12-Oct-2017 22:50:03 Europe/Berlin] User require database
+[12-Oct-2017 22:50:03 Europe/Berlin] User require session
+[12-Oct-2017 22:50:03 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:50:03 Europe/Berlin] User __construct()
+[12-Oct-2017 22:50:03 Europe/Berlin] User loadData()
+[12-Oct-2017 22:50:03 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:03 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:03 Europe/Berlin] User loading data
+[12-Oct-2017 22:50:03 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:50:03 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:50:03 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:03 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:03 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:50:37 Europe/Berlin] User starting
+[12-Oct-2017 22:50:37 Europe/Berlin] User require database
+[12-Oct-2017 22:50:37 Europe/Berlin] User require session
+[12-Oct-2017 22:50:37 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:50:37 Europe/Berlin] User __construct()
+[12-Oct-2017 22:50:37 Europe/Berlin] User loadData()
+[12-Oct-2017 22:50:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:37 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:37 Europe/Berlin] User loading data
+[12-Oct-2017 22:50:37 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:50:37 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:50:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:50:37 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:50:37 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:52:04 Europe/Berlin] User starting
+[12-Oct-2017 22:52:04 Europe/Berlin] User require database
+[12-Oct-2017 22:52:04 Europe/Berlin] User require session
+[12-Oct-2017 22:52:04 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:52:04 Europe/Berlin] User __construct()
+[12-Oct-2017 22:52:04 Europe/Berlin] User loadData()
+[12-Oct-2017 22:52:04 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:52:04 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:52:04 Europe/Berlin] User loading data
+[12-Oct-2017 22:52:04 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:52:04 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:52:04 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:52:04 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:52:04 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:52:26 Europe/Berlin] User starting
+[12-Oct-2017 22:52:26 Europe/Berlin] User require database
+[12-Oct-2017 22:52:26 Europe/Berlin] User require session
+[12-Oct-2017 22:52:26 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:52:26 Europe/Berlin] User __construct()
+[12-Oct-2017 22:52:26 Europe/Berlin] User loadData()
+[12-Oct-2017 22:52:26 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:52:26 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:52:26 Europe/Berlin] User loading data
+[12-Oct-2017 22:52:26 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:52:26 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:52:26 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:52:26 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:52:26 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:53:31 Europe/Berlin] User starting
+[12-Oct-2017 22:53:31 Europe/Berlin] User require database
+[12-Oct-2017 22:53:31 Europe/Berlin] User require session
+[12-Oct-2017 22:53:31 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:53:31 Europe/Berlin] User __construct()
+[12-Oct-2017 22:53:31 Europe/Berlin] User loadData()
+[12-Oct-2017 22:53:31 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:53:31 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:53:31 Europe/Berlin] User loading data
+[12-Oct-2017 22:53:31 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:53:31 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:53:31 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:53:31 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:53:31 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 22:55:37 Europe/Berlin] User starting
+[12-Oct-2017 22:55:37 Europe/Berlin] User require database
+[12-Oct-2017 22:55:37 Europe/Berlin] User require session
+[12-Oct-2017 22:55:37 Europe/Berlin] User getInstance()
+[12-Oct-2017 22:55:37 Europe/Berlin] User __construct()
+[12-Oct-2017 22:55:37 Europe/Berlin] User loadData()
+[12-Oct-2017 22:55:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:55:37 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:55:37 Europe/Berlin] User loading data
+[12-Oct-2017 22:55:37 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 22:55:37 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 22:55:37 Europe/Berlin] User getUserSession()
+[12-Oct-2017 22:55:37 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 22:55:37 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:02:00 Europe/Berlin] User starting
+[12-Oct-2017 23:02:00 Europe/Berlin] User require database
+[12-Oct-2017 23:02:00 Europe/Berlin] User require session
+[12-Oct-2017 23:02:00 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:02:00 Europe/Berlin] User __construct()
+[12-Oct-2017 23:02:00 Europe/Berlin] User loadData()
+[12-Oct-2017 23:02:00 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:02:00 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:02:00 Europe/Berlin] User loading data
+[12-Oct-2017 23:02:00 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:02:00 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:02:00 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:02:00 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:02:00 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:03:13 Europe/Berlin] User starting
+[12-Oct-2017 23:03:13 Europe/Berlin] User require database
+[12-Oct-2017 23:03:13 Europe/Berlin] User require session
+[12-Oct-2017 23:03:13 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:03:13 Europe/Berlin] User __construct()
+[12-Oct-2017 23:03:13 Europe/Berlin] User loadData()
+[12-Oct-2017 23:03:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:03:13 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:03:13 Europe/Berlin] User loading data
+[12-Oct-2017 23:03:13 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:03:13 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:03:13 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:03:13 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:03:13 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:04:20 Europe/Berlin] User starting
+[12-Oct-2017 23:04:20 Europe/Berlin] User require database
+[12-Oct-2017 23:04:20 Europe/Berlin] User require session
+[12-Oct-2017 23:04:20 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:04:20 Europe/Berlin] User __construct()
+[12-Oct-2017 23:04:20 Europe/Berlin] User loadData()
+[12-Oct-2017 23:04:20 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:04:20 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:04:20 Europe/Berlin] User loading data
+[12-Oct-2017 23:04:20 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:04:20 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:04:20 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:04:20 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:04:20 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:04:56 Europe/Berlin] User starting
+[12-Oct-2017 23:04:56 Europe/Berlin] User require database
+[12-Oct-2017 23:04:56 Europe/Berlin] User require session
+[12-Oct-2017 23:04:56 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:04:56 Europe/Berlin] User __construct()
+[12-Oct-2017 23:04:56 Europe/Berlin] User loadData()
+[12-Oct-2017 23:04:56 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:04:56 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:04:56 Europe/Berlin] User loading data
+[12-Oct-2017 23:04:56 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:04:56 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:04:56 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:04:56 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:04:56 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:05:12 Europe/Berlin] User starting
+[12-Oct-2017 23:05:12 Europe/Berlin] User require database
+[12-Oct-2017 23:05:12 Europe/Berlin] User require session
+[12-Oct-2017 23:05:12 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:05:12 Europe/Berlin] User __construct()
+[12-Oct-2017 23:05:12 Europe/Berlin] User loadData()
+[12-Oct-2017 23:05:12 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:12 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:12 Europe/Berlin] User loading data
+[12-Oct-2017 23:05:12 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:05:12 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:05:12 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:12 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:12 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:05:17 Europe/Berlin] User starting
+[12-Oct-2017 23:05:17 Europe/Berlin] User require database
+[12-Oct-2017 23:05:17 Europe/Berlin] User require session
+[12-Oct-2017 23:05:17 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:05:17 Europe/Berlin] User __construct()
+[12-Oct-2017 23:05:17 Europe/Berlin] User loadData()
+[12-Oct-2017 23:05:17 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:17 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:17 Europe/Berlin] User loading data
+[12-Oct-2017 23:05:17 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:05:17 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:05:17 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:17 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:17 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:05:48 Europe/Berlin] User starting
+[12-Oct-2017 23:05:48 Europe/Berlin] User require database
+[12-Oct-2017 23:05:48 Europe/Berlin] User require session
+[12-Oct-2017 23:05:48 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:05:48 Europe/Berlin] User __construct()
+[12-Oct-2017 23:05:48 Europe/Berlin] User loadData()
+[12-Oct-2017 23:05:48 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:48 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:48 Europe/Berlin] User loading data
+[12-Oct-2017 23:05:48 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:05:48 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:05:48 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:05:48 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:05:48 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:08:26 Europe/Berlin] User starting
+[12-Oct-2017 23:08:26 Europe/Berlin] User require database
+[12-Oct-2017 23:08:26 Europe/Berlin] User require session
+[12-Oct-2017 23:08:26 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:08:26 Europe/Berlin] User __construct()
+[12-Oct-2017 23:08:26 Europe/Berlin] User loadData()
+[12-Oct-2017 23:08:26 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:08:26 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:08:26 Europe/Berlin] User loading data
+[12-Oct-2017 23:08:26 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:08:26 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:08:26 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:08:26 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:08:26 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:09:06 Europe/Berlin] User starting
+[12-Oct-2017 23:09:06 Europe/Berlin] User require database
+[12-Oct-2017 23:09:06 Europe/Berlin] User require session
+[12-Oct-2017 23:09:06 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:09:06 Europe/Berlin] User __construct()
+[12-Oct-2017 23:09:06 Europe/Berlin] User loadData()
+[12-Oct-2017 23:09:06 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:09:06 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:09:06 Europe/Berlin] User loading data
+[12-Oct-2017 23:09:06 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:09:06 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:09:06 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:09:06 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:09:06 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:09:40 Europe/Berlin] User starting
+[12-Oct-2017 23:09:40 Europe/Berlin] User require database
+[12-Oct-2017 23:09:40 Europe/Berlin] User require session
+[12-Oct-2017 23:09:40 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:09:40 Europe/Berlin] User __construct()
+[12-Oct-2017 23:09:40 Europe/Berlin] User loadData()
+[12-Oct-2017 23:09:40 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:09:40 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:09:40 Europe/Berlin] User loading data
+[12-Oct-2017 23:09:40 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:09:40 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:09:40 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:09:40 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:09:40 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:11:25 Europe/Berlin] User starting
+[12-Oct-2017 23:11:25 Europe/Berlin] User require database
+[12-Oct-2017 23:11:25 Europe/Berlin] User require session
+[12-Oct-2017 23:11:25 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:11:25 Europe/Berlin] User __construct()
+[12-Oct-2017 23:11:25 Europe/Berlin] User loadData()
+[12-Oct-2017 23:11:25 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:11:25 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:11:25 Europe/Berlin] User loading data
+[12-Oct-2017 23:11:25 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:11:25 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:11:25 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:11:25 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:11:25 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:12:02 Europe/Berlin] User starting
+[12-Oct-2017 23:12:02 Europe/Berlin] User require database
+[12-Oct-2017 23:12:02 Europe/Berlin] User require session
+[12-Oct-2017 23:12:02 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:12:02 Europe/Berlin] User __construct()
+[12-Oct-2017 23:12:02 Europe/Berlin] User loadData()
+[12-Oct-2017 23:12:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:02 Europe/Berlin] User loading data
+[12-Oct-2017 23:12:02 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:12:02 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:12:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:02 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:12:35 Europe/Berlin] User starting
+[12-Oct-2017 23:12:35 Europe/Berlin] User require database
+[12-Oct-2017 23:12:35 Europe/Berlin] User require session
+[12-Oct-2017 23:12:35 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:12:35 Europe/Berlin] User __construct()
+[12-Oct-2017 23:12:35 Europe/Berlin] User loadData()
+[12-Oct-2017 23:12:35 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:35 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:35 Europe/Berlin] User loading data
+[12-Oct-2017 23:12:35 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:12:35 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:12:35 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:35 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:35 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:12:55 Europe/Berlin] User starting
+[12-Oct-2017 23:12:55 Europe/Berlin] User require database
+[12-Oct-2017 23:12:55 Europe/Berlin] User require session
+[12-Oct-2017 23:12:55 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:12:55 Europe/Berlin] User __construct()
+[12-Oct-2017 23:12:55 Europe/Berlin] User loadData()
+[12-Oct-2017 23:12:55 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:55 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:55 Europe/Berlin] User loading data
+[12-Oct-2017 23:12:55 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:12:55 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:12:55 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:12:55 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:12:55 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:13:01 Europe/Berlin] User starting
+[12-Oct-2017 23:13:01 Europe/Berlin] User require database
+[12-Oct-2017 23:13:01 Europe/Berlin] User require session
+[12-Oct-2017 23:13:01 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:13:01 Europe/Berlin] User __construct()
+[12-Oct-2017 23:13:01 Europe/Berlin] User loadData()
+[12-Oct-2017 23:13:01 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:01 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:01 Europe/Berlin] User loading data
+[12-Oct-2017 23:13:01 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:13:01 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:13:01 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:01 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:01 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:13:05 Europe/Berlin] User starting
+[12-Oct-2017 23:13:05 Europe/Berlin] User require database
+[12-Oct-2017 23:13:05 Europe/Berlin] User require session
+[12-Oct-2017 23:13:05 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:13:05 Europe/Berlin] User __construct()
+[12-Oct-2017 23:13:05 Europe/Berlin] User loadData()
+[12-Oct-2017 23:13:05 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:05 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:05 Europe/Berlin] User loading data
+[12-Oct-2017 23:13:05 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:13:05 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:13:05 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:05 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:05 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:13:11 Europe/Berlin] User starting
+[12-Oct-2017 23:13:11 Europe/Berlin] User require database
+[12-Oct-2017 23:13:11 Europe/Berlin] User require session
+[12-Oct-2017 23:13:11 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:13:11 Europe/Berlin] User __construct()
+[12-Oct-2017 23:13:11 Europe/Berlin] User loadData()
+[12-Oct-2017 23:13:11 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:11 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:11 Europe/Berlin] User loading data
+[12-Oct-2017 23:13:11 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:13:11 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:13:11 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:11 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:11 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:13:25 Europe/Berlin] User starting
+[12-Oct-2017 23:13:25 Europe/Berlin] User require database
+[12-Oct-2017 23:13:25 Europe/Berlin] User require session
+[12-Oct-2017 23:13:25 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:13:25 Europe/Berlin] User __construct()
+[12-Oct-2017 23:13:25 Europe/Berlin] User loadData()
+[12-Oct-2017 23:13:25 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:25 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:25 Europe/Berlin] User loading data
+[12-Oct-2017 23:13:25 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:13:25 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:13:25 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:25 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:25 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:13:42 Europe/Berlin] User starting
+[12-Oct-2017 23:13:42 Europe/Berlin] User require database
+[12-Oct-2017 23:13:42 Europe/Berlin] User require session
+[12-Oct-2017 23:13:42 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:13:42 Europe/Berlin] User __construct()
+[12-Oct-2017 23:13:42 Europe/Berlin] User loadData()
+[12-Oct-2017 23:13:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:42 Europe/Berlin] User loading data
+[12-Oct-2017 23:13:42 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:13:42 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:13:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:13:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:13:42 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:08 Europe/Berlin] User starting
+[12-Oct-2017 23:14:08 Europe/Berlin] User require database
+[12-Oct-2017 23:14:08 Europe/Berlin] User require session
+[12-Oct-2017 23:14:08 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:08 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:08 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:08 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:08 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:08 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:08 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:08 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:08 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:09 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:09 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:24 Europe/Berlin] User starting
+[12-Oct-2017 23:14:24 Europe/Berlin] User require database
+[12-Oct-2017 23:14:24 Europe/Berlin] User require session
+[12-Oct-2017 23:14:24 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:24 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:24 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:24 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:24 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:24 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:24 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:24 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:24 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:24 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:24 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:30 Europe/Berlin] User starting
+[12-Oct-2017 23:14:30 Europe/Berlin] User require database
+[12-Oct-2017 23:14:30 Europe/Berlin] User require session
+[12-Oct-2017 23:14:30 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:30 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:30 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:30 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:30 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:30 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:30 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:30 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:30 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:30 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:30 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:40 Europe/Berlin] User starting
+[12-Oct-2017 23:14:40 Europe/Berlin] User require database
+[12-Oct-2017 23:14:40 Europe/Berlin] User require session
+[12-Oct-2017 23:14:40 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:40 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:40 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:40 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:40 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:40 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:40 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:40 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:40 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:40 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:40 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:45 Europe/Berlin] User starting
+[12-Oct-2017 23:14:45 Europe/Berlin] User require database
+[12-Oct-2017 23:14:45 Europe/Berlin] User require session
+[12-Oct-2017 23:14:45 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:45 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:45 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:45 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:45 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:45 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:45 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:45 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:45 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:45 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:45 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:14:52 Europe/Berlin] User starting
+[12-Oct-2017 23:14:52 Europe/Berlin] User require database
+[12-Oct-2017 23:14:52 Europe/Berlin] User require session
+[12-Oct-2017 23:14:52 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:14:52 Europe/Berlin] User __construct()
+[12-Oct-2017 23:14:52 Europe/Berlin] User loadData()
+[12-Oct-2017 23:14:52 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:52 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:52 Europe/Berlin] User loading data
+[12-Oct-2017 23:14:52 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:14:52 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:14:52 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:14:52 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:14:52 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:16:15 Europe/Berlin] User starting
+[12-Oct-2017 23:16:15 Europe/Berlin] User require database
+[12-Oct-2017 23:16:15 Europe/Berlin] User require session
+[12-Oct-2017 23:16:15 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:16:15 Europe/Berlin] User __construct()
+[12-Oct-2017 23:16:15 Europe/Berlin] User loadData()
+[12-Oct-2017 23:16:15 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:15 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:15 Europe/Berlin] User loading data
+[12-Oct-2017 23:16:15 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:16:15 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:16:15 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:15 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:15 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:16:19 Europe/Berlin] User starting
+[12-Oct-2017 23:16:19 Europe/Berlin] User require database
+[12-Oct-2017 23:16:19 Europe/Berlin] User require session
+[12-Oct-2017 23:16:19 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:16:19 Europe/Berlin] User __construct()
+[12-Oct-2017 23:16:19 Europe/Berlin] User loadData()
+[12-Oct-2017 23:16:19 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:19 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:19 Europe/Berlin] User loading data
+[12-Oct-2017 23:16:19 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:16:19 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:16:19 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:19 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:19 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:16:24 Europe/Berlin] User starting
+[12-Oct-2017 23:16:24 Europe/Berlin] User require database
+[12-Oct-2017 23:16:24 Europe/Berlin] User require session
+[12-Oct-2017 23:16:24 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:16:24 Europe/Berlin] User __construct()
+[12-Oct-2017 23:16:24 Europe/Berlin] User loadData()
+[12-Oct-2017 23:16:24 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:24 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:24 Europe/Berlin] User loading data
+[12-Oct-2017 23:16:24 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:16:24 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:16:24 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:24 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:24 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:16:38 Europe/Berlin] User starting
+[12-Oct-2017 23:16:38 Europe/Berlin] User require database
+[12-Oct-2017 23:16:38 Europe/Berlin] User require session
+[12-Oct-2017 23:16:38 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:16:38 Europe/Berlin] User __construct()
+[12-Oct-2017 23:16:38 Europe/Berlin] User loadData()
+[12-Oct-2017 23:16:38 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:38 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:38 Europe/Berlin] User loading data
+[12-Oct-2017 23:16:38 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:16:38 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:16:38 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:38 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:38 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:16:43 Europe/Berlin] User starting
+[12-Oct-2017 23:16:43 Europe/Berlin] User require database
+[12-Oct-2017 23:16:43 Europe/Berlin] User require session
+[12-Oct-2017 23:16:43 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:16:43 Europe/Berlin] User __construct()
+[12-Oct-2017 23:16:43 Europe/Berlin] User loadData()
+[12-Oct-2017 23:16:43 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:43 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:43 Europe/Berlin] User loading data
+[12-Oct-2017 23:16:43 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:16:43 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:16:43 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:16:43 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:16:43 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:17:30 Europe/Berlin] User starting
+[12-Oct-2017 23:17:30 Europe/Berlin] User require database
+[12-Oct-2017 23:17:30 Europe/Berlin] User require session
+[12-Oct-2017 23:17:30 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:17:30 Europe/Berlin] User __construct()
+[12-Oct-2017 23:17:30 Europe/Berlin] User loadData()
+[12-Oct-2017 23:17:30 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:30 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:30 Europe/Berlin] User loading data
+[12-Oct-2017 23:17:30 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:17:30 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:17:30 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:30 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:30 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:17:35 Europe/Berlin] User starting
+[12-Oct-2017 23:17:35 Europe/Berlin] User require database
+[12-Oct-2017 23:17:35 Europe/Berlin] User require session
+[12-Oct-2017 23:17:35 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:17:35 Europe/Berlin] User __construct()
+[12-Oct-2017 23:17:35 Europe/Berlin] User loadData()
+[12-Oct-2017 23:17:35 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:35 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:35 Europe/Berlin] User loading data
+[12-Oct-2017 23:17:35 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:17:35 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:17:35 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:35 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:35 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:17:38 Europe/Berlin] User starting
+[12-Oct-2017 23:17:38 Europe/Berlin] User require database
+[12-Oct-2017 23:17:38 Europe/Berlin] User require session
+[12-Oct-2017 23:17:38 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:17:38 Europe/Berlin] User __construct()
+[12-Oct-2017 23:17:38 Europe/Berlin] User loadData()
+[12-Oct-2017 23:17:38 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:38 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:38 Europe/Berlin] User loading data
+[12-Oct-2017 23:17:38 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:17:38 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:17:38 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:38 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:38 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:17:42 Europe/Berlin] User starting
+[12-Oct-2017 23:17:42 Europe/Berlin] User require database
+[12-Oct-2017 23:17:42 Europe/Berlin] User require session
+[12-Oct-2017 23:17:42 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:17:42 Europe/Berlin] User __construct()
+[12-Oct-2017 23:17:42 Europe/Berlin] User loadData()
+[12-Oct-2017 23:17:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:42 Europe/Berlin] User loading data
+[12-Oct-2017 23:17:42 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:17:42 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:17:42 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:42 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:42 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:17:46 Europe/Berlin] User starting
+[12-Oct-2017 23:17:46 Europe/Berlin] User require database
+[12-Oct-2017 23:17:46 Europe/Berlin] User require session
+[12-Oct-2017 23:17:46 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:17:46 Europe/Berlin] User __construct()
+[12-Oct-2017 23:17:46 Europe/Berlin] User loadData()
+[12-Oct-2017 23:17:46 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:46 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:46 Europe/Berlin] User loading data
+[12-Oct-2017 23:17:46 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:17:46 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:17:46 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:17:46 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:17:46 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:18:00 Europe/Berlin] User starting
+[12-Oct-2017 23:18:00 Europe/Berlin] User require database
+[12-Oct-2017 23:18:00 Europe/Berlin] User require session
+[12-Oct-2017 23:18:00 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:18:00 Europe/Berlin] User __construct()
+[12-Oct-2017 23:18:00 Europe/Berlin] User loadData()
+[12-Oct-2017 23:18:00 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:00 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:00 Europe/Berlin] User loading data
+[12-Oct-2017 23:18:00 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:18:00 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:18:00 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:00 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:00 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:18:02 Europe/Berlin] User starting
+[12-Oct-2017 23:18:02 Europe/Berlin] User require database
+[12-Oct-2017 23:18:02 Europe/Berlin] User require session
+[12-Oct-2017 23:18:02 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:18:02 Europe/Berlin] User __construct()
+[12-Oct-2017 23:18:02 Europe/Berlin] User loadData()
+[12-Oct-2017 23:18:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:02 Europe/Berlin] User loading data
+[12-Oct-2017 23:18:02 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:18:02 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:18:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:02 Europe/Berlin] isLoggedIn true
+[12-Oct-2017 23:18:02 Europe/Berlin] User starting
+[12-Oct-2017 23:18:02 Europe/Berlin] User require database
+[12-Oct-2017 23:18:02 Europe/Berlin] User require session
+[12-Oct-2017 23:18:02 Europe/Berlin] User getInstance()
+[12-Oct-2017 23:18:02 Europe/Berlin] User __construct()
+[12-Oct-2017 23:18:02 Europe/Berlin] User loadData()
+[12-Oct-2017 23:18:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:02 Europe/Berlin] User loading data
+[12-Oct-2017 23:18:02 Europe/Berlin] user found: Array
+(
+    [id] => 5
+    [0] => 5
+    [email] => kate@gmail.com
+    [1] => kate@gmail.com
+    [username] => kate
+    [2] => kate
+    [password] => 123456
+    [3] => 123456
+    [is_admin] => 0
+    [4] => 0
+)
+
+[12-Oct-2017 23:18:02 Europe/Berlin] calling isLoggedIn
+[12-Oct-2017 23:18:02 Europe/Berlin] User getUserSession()
+[12-Oct-2017 23:18:02 Europe/Berlin] get_session_data: kate
+[12-Oct-2017 23:18:02 Europe/Berlin] isLoggedIn true

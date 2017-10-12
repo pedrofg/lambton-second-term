@@ -2,10 +2,8 @@
 include_once 'header.php';
 require 'util.php';
 
-$user_id = $user->id;
-
 $db = Database::getInstance();
-$orders = $db->query("SELECT * FROM orders WHERE user_id = $user_id ORDER BY date DESC");
+$orders = $db->query("SELECT * FROM orders ORDER BY date DESC");
 
 
 $PRODUCT_FILE_PATH = 'resources/';
@@ -22,6 +20,7 @@ $PRODUCT_IMAGE_PATH = 'resources/images/';
 
           <thead>
               <tr>
+                  <th>User</th>
                   <th>Image</th>
                   <th>Name</th>
                   <th>Value</th>
@@ -33,8 +32,10 @@ $PRODUCT_IMAGE_PATH = 'resources/images/';
             <?php foreach ($orders as $order) :
               $product = $db->query('SELECT * FROM product WHERE id = '.$order['product_id'])[0];
               $date = formatDateToScreen($order['date']);
+              $user = $db->query('SELECT * FROM users WHERE id = '.$order['user_id'])[0];
             ?>
               <tr>
+                  <td><?php echo $user['email'] ?></td>
                   <td><img src="<?php echo $PRODUCT_IMAGE_PATH.$product['img_location'] ?>" width="300px" height="300px" alt=""></td>
                   <td><?php echo $product['name'] ?></td>
                   <td><?php echo $product['value'] ?></td>
@@ -66,7 +67,7 @@ $PRODUCT_IMAGE_PATH = 'resources/images/';
   $(document).ready(function() {
     $('#orders-table').DataTable( {
         responsive: true,
-        "order": [[ 4, "desc" ]]
+        "order": [[ 5, "desc" ]]
     } );
   });
 </script>

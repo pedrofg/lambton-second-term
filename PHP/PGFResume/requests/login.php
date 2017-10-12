@@ -15,7 +15,7 @@ error_log('$password: '. $password);
 $db = Database::getInstance();
 $pdo = $db->getPDO();
 
-$user = $db->query("SELECT * FROM users WHERE email = '$email' AND password = '$password'");
+$user = $db->query("SELECT * FROM users WHERE (email = '$email' OR username = '$email') AND password = '$password'");
 
 if (count($user) == 0) {
   error_log('Loggin error');

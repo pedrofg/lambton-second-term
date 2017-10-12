@@ -12,6 +12,7 @@ class User {
 
     public $id;
     public $email;
+    public $username;
     public $password;
     public $is_admin;
     private static $session;
@@ -42,7 +43,7 @@ class User {
         $db = Database::getInstance();
         $pdo = $db->getPDO();
 
-        $user_query = $db->query("SELECT * FROM users WHERE email = '$userSession'");
+        $user_query = $db->query("SELECT * FROM users WHERE email = '$userSession' or username = '$userSession'");
 
         if (count($user_query) > 0) {
           $user_query = $user_query[0];
@@ -50,6 +51,7 @@ class User {
 
           $this->id = $user_query['id'];
           $this->email = $user_query['email'];
+          $this->username = $user_query['username'];
           $this->password = $user_query['password'];
           $this->is_admin = $user_query['is_admin'];
         }

@@ -33,6 +33,7 @@ if ($user->isLoggedIn()) {
             <li><a href="skill.php">Skills</a></li>
             <li><a href="portfolio.php">Portfolio</a></li>
             <li><a href="product.php">Products</a></li>
+            <li><a href="orders_admin.php">Orders</a></li>
           <?php else : ?>
             <li><a href="shop.php">Shop</a></li>
             <li><a href="cart.php">Cart</a></li>
@@ -42,7 +43,7 @@ if ($user->isLoggedIn()) {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <?php if ($isLoggedIn) : ?>
-          <li><p class="navbar-text">Hello! <?php echo $user->email ?></p></li>
+          <li><p class="navbar-text">Hello! <?php echo $user->username ?></p></li>
           <li><a id="logout-btn" style="cursor: pointer;">Logout</a></li>
         <?php else : ?>
           <li><a id="login-btn" style="cursor: pointer;">Login</a></li>
@@ -70,6 +71,11 @@ if ($user->isLoggedIn()) {
           <div class="form-group">
             <label for="email">Email</label>
             <input type="text" class="form-control" name="email" maxlength="100">
+          </div>
+
+          <div class="form-group">
+            <label for="email">Username</label>
+            <input type="text" class="form-control" name="username" maxlength="100">
           </div>
 
           <div class="form-group">
@@ -111,7 +117,7 @@ if ($user->isLoggedIn()) {
         <form id="form-login" action="requests/login.php" method="post">
 
           <div class="form-group">
-            <label for="name">Email</label>
+            <label for="name">Email or Username</label>
             <input type="text" class="form-control" name="email" maxlength="100">
           </div>
 
@@ -187,7 +193,6 @@ if ($user->isLoggedIn()) {
           url: $("#form-signup").attr("action"),
           data: $("#form-signup").serialize(),
           success: function(data) {
-            console.log(data);
              if (data) {
                $("#signup-error").show();
                $("#signup-error span").text(data);
