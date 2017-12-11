@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/movies_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_cards"
+    android:orientation="vertical"
+    android:padding="14dp">
+
+    <TextView
+        android:id="@+id/txtDescTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Gifts"
+        android:textColor="#0c0266"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="120dp"
+        android:layout_height="1dp"
+        android:layout_below="@id/txtDescTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:background="#99b9b9b9" />
+
+    <TextView
+        android:id="@+id/txtDescValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtDescTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:gravity="left"
+        android:textSize="16dp" />
+</RelativeLayout>
