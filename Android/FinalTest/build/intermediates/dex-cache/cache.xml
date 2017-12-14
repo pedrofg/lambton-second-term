@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/409a61d5ddde4dcf5eb244dbd542b6f2ab6b9cf5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b84fc9a84e76bd98fd9184714fc1ad2b57922eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/de722db9404f88c27a10d2788d272980583383d5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_83f6457caa8581d53fceb24f20f49c41bfff30af/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/c3594c7ae3fdf08cc0944811c21da8ddc0c99558/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="700f8f1135982ef49cb91121a76490565f069553">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fb3979f5d1c816b66b28c42962f4273da140610e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7fcd492350b387b7ca7f2e2d3fb32a592f1c07fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/3de407366377a4d4c4a961017e7538216152c895/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d14015c78c31384d80b9b7dd393d85120b3eeeb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1a7e33f061b2cfc988c2e15b53218ca5ce483bb4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/a5f57a2f47a5ed9e38b5413c641590230c1b070c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_05e7870e5986b552ae12568a79f2527027f64705/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/409a61d5ddde4dcf5eb244dbd542b6f2ab6b9cf5/output/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_c1e7cee19dbc32c12ff4dde1c50f95447ff49a22/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/50973594b4563ccb421e0fbbe85dadc8b7db5c65/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_021fd5b5c933252f50e59df7c73e523d77f15d42/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/b79122b7527c2ff4c332721fec7a0e48dcc746e7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7f11a2816a44969258b4e48b29b09b7bba4934db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/3.5.0/1e4b144dd28b139ae890ce2868979b12e1f2d7c7/realm-annotations-3.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1e4b144dd28b139ae890ce2868979b12e1f2d7c7">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-3.5.0_54db13266f0ec51813a88fbe53109779c2384546/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7e9329416c6460192f7eb25d1fa98a4d7d1de766">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_856d666e02b1b9d9473e3e8b37c95b9fdb0e50b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/.android/build-cache/dce49a9854bed816fc2fbec63a7ba7e32fcb8842/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8c702ba100e7204a6e31242b33fc87ddd24180cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/macstudent/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/macstudent/AndroidStudioProjects/FinalTest/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_be52debafb41186ed2cd0a7c6ec188b8ca5c8c1e/classes.dex" />
+    </item>
+
+</items>

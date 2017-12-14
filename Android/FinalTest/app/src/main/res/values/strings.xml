@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FinalTest</string>
+
+    <string-array name="major_array">
+        <item>Math</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>Science</item>
+        <item>History</item>
+    </string-array>
+</resources>
